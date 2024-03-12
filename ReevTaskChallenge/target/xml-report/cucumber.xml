@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="79.085" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="verfiy TestStation Numer" name="Verify Homescreen" time="16.367">
+<system-out><![CDATA[
+Given The user sets up functions............................................passed
+Given The user go to the "baseURL" website..................................passed
+When The user asserts that "ChargePointInstallationForm_HeaderText" is visible.passed
+Then The user asserts that "SerialNumberText" is visible....................passed
+And The user fills the "InputSerialNumber" box as "TT 00 000"...............passed
+When The user asserts that "AddButton" is visible...........................passed
+When The user clicks the "AddButton" button.................................passed
+Then The user asserts that "cancelButton" is visible........................passed
+When The user clicks the "cancelButton" button..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="verfiy TestStation Numer" name="Verify The TestStation Functinality" time="62.546">
+<system-out><![CDATA[
+Given The user sets up functions............................................passed
+Given The user go to the "baseURL" website..................................passed
+When The user fills the "InputSerialNumber" box as "TT 00 000"..............passed
+And The user clicks the "AddButton" button..................................passed
+Then The user asserts that "VerifyTestStationNumber" is visible.............passed
+And The user asserts that "cancelButton" is visible.........................passed
+When The user clicks the "cancelButton" button..............................passed
+Then The user asserts that VerifyTestStationNumber is not visible...........passed
+And The user asserts that cancelButton is not visible.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

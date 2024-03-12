@@ -1,5 +1,3 @@
-# Reev-Automation-Task
-
 ## Reev Task Automation  framework is a BDD framework which Uses
 
 1. Selenium
